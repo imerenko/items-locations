@@ -10,6 +10,9 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * Flex repository
+ */
 @Repository
 public class FlexRepository {
 
