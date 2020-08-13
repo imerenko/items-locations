@@ -1,0 +1,68 @@
+schema {
+    query:Query
+}
+
+type Query {
+    modulars: [Modular]
+    modular(countryCode: String, storeNumber: Int, planId: Int): Modular
+    sections (gln: String): [Section]
+    sectionBySgln (sgln: String): Section
+    section (coutryCode: String, storeNumber: Int, name: String): Section
+    item (coutryCode: String, storeNumber: Int, gtin: String): Item
+}
+
+type Modular {
+ #   id: ID!,
+    planId: Long!,
+    store: Store,
+    modularName: String!
+    modularSections: [ModularSection]
+}
+
+type ModularSection {
+    sectionNumber: Int!,
+    modular: Modular,
+    modularSectionItems: [ModularSectionItem],
+    modularSectionAssignments: [ModularSectionAssignment]
+}
+
+type ModularSectionItem {
+    sequenceNumber: Int!
+    gtin : String
+    modularSection: ModularSection
+}
+
+type ModularSectionAssignment {
+    modularSection: ModularSection
+    section: Section
+    assigner: String
+}
+
+type Flex {
+    gtin: String!,
+    section: Section!
+    assigner: String
+}
+
+type Item {
+    gtin: String!
+    flexes: [Flex]
+    modularSectionAssignments: [ModularSectionAssignment]
+    modularSections : [ModularSection]
+    sections: [Section]
+}
+
+type Section {
+    sgln : String!
+    name : String!
+    store: Store!
+    modularSectionAssignments: [ModularSectionAssignment]
+    flexes: [Flex]
+    items: [Item]
+}
+
+type Store {
+    gln: String,
+    countryCode : String,
+    storeNumber: String
+}

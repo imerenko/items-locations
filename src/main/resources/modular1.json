@@ -1,0 +1,1490 @@
+{
+  "planId": 11251049,
+  "ckbPlanId": null,
+   "modularName": "012ftX078in SOCKS TIGHTS UW D1SC TS",
+  "gln": "0078742000992",
+  "status": "Confirmed",
+  "type" : "modular",
+  "countryCode" : "US",
+  "storeNumber" : 100,
+  "category": {
+    "number": 80,
+    "categoryName": "SOCKS/TIGHTS/UNDERWEAR",
+    "department": {
+      "number": 26,
+      "departmentName": "BABY APPAREL"
+    }
+  },
+  "sections": [
+    {
+      "number": 1,
+      "items": [
+        {
+          "seqNumber": 1,
+          "gtin": "19416425154",
+          "capacityCnt": 8,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 2,
+          "gtin": "88530693055",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 3,
+          "gtin": "76125318510",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 4,
+          "gtin": "4529901036",
+          "capacityCnt": 10,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 5,
+          "gtin": "4529908011",
+          "capacityCnt": 10,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 6,
+          "gtin": "3825720510",
+          "capacityCnt": 5,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 7,
+          "gtin": "88980216121",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 8,
+          "gtin": "19315904903",
+          "capacityCnt": 4,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 9,
+          "gtin": "3825720511",
+          "capacityCnt": 5,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 10,
+          "gtin": "88980216122",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 11,
+          "gtin": "19315904907",
+          "capacityCnt": 4,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 12,
+          "gtin": "19416425155",
+          "capacityCnt": 8,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 13,
+          "gtin": "88530693054",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 14,
+          "gtin": "76125318511",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 15,
+          "gtin": "4529901037",
+          "capacityCnt": 10,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 16,
+          "gtin": "4529908012",
+          "capacityCnt": 10,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 17,
+          "gtin": "3825720512",
+          "capacityCnt": 5,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 18,
+          "gtin": "88980216122",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 19,
+          "gtin": "19315904908",
+          "capacityCnt": 4,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 20,
+          "gtin": "19416415690",
+          "capacityCnt": 5,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 21,
+          "gtin": "88530690392",
+          "capacityCnt": 8,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 22,
+          "gtin": "76125318514",
+          "capacityCnt": 10,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 23,
+          "gtin": "4529908015",
+          "capacityCnt": 10,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 24,
+          "gtin": "4529908013",
+          "capacityCnt": 10,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 25,
+          "gtin": "3825720513",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 26,
+          "gtin": "88980216123",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 27,
+          "gtin": "19315904910",
+          "capacityCnt": 4,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 28,
+          "gtin": "19416415691",
+          "capacityCnt": 5,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 29,
+          "gtin": "88530690393",
+          "capacityCnt": 8,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 30,
+          "gtin": "76125318515",
+          "capacityCnt": 8,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 31,
+          "gtin": "4529908016",
+          "capacityCnt": 10,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 32,
+          "gtin": "4529908014",
+          "capacityCnt": 10,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 33,
+          "gtin": "3825720506",
+          "capacityCnt": 8,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 34,
+          "gtin": "88980209681",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 35,
+          "gtin": "19315904911",
+          "capacityCnt": 4,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 36,
+          "gtin": "3825720507",
+          "capacityCnt": 8,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 37,
+          "gtin": "88980209682",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 38,
+          "gtin": "19315904920",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 39,
+          "gtin": "19416415377",
+          "capacityCnt": 5,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 40,
+          "gtin": "88530687055",
+          "capacityCnt": 8,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 41,
+          "gtin": "76125318506",
+          "capacityCnt": 10,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 42,
+          "gtin": "4529903413",
+          "capacityCnt": 10,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 43,
+          "gtin": "4529906343",
+          "capacityCnt": 10,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 44,
+          "gtin": "3825720508",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 45,
+          "gtin": "88980209682",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 46,
+          "gtin": "19315904918",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 47,
+          "gtin": "19416415378",
+          "capacityCnt": 5,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 48,
+          "gtin": "88530687056",
+          "capacityCnt": 8,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 49,
+          "gtin": "76125318507",
+          "capacityCnt": 8,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 50,
+          "gtin": "4529903414",
+          "capacityCnt": 10,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 51,
+          "gtin": "4529906344",
+          "capacityCnt": 10,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 52,
+          "gtin": "3825720509",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 53,
+          "gtin": "88980209683",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 54,
+          "gtin": "19315904919",
+          "capacityCnt": 4,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        }
+      ],
+      "assignments": [
+        {
+          "sgln": "0078742000992100001529855",
+          "assignedDatetime": 1588177069633,
+          "assigner": "system"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "items": [
+        {
+          "seqNumber": 1,
+          "gtin": "8669447606",
+          "capacityCnt": 4,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 2,
+          "gtin": "8669447620",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 3,
+          "gtin": "1132104485",
+          "capacityCnt": 8,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 4,
+          "gtin": "88980210849",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 5,
+          "gtin": "88980210853",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 6,
+          "gtin": "88980210841",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 7,
+          "gtin": "8669447627",
+          "capacityCnt": 4,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 8,
+          "gtin": "8669447634",
+          "capacityCnt": 4,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 9,
+          "gtin": "19315904931",
+          "capacityCnt": 4,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 10,
+          "gtin": "88980216118",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 11,
+          "gtin": "8669447607",
+          "capacityCnt": 4,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 12,
+          "gtin": "8669447621",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 13,
+          "gtin": "1132104486",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 14,
+          "gtin": "88980210850",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 15,
+          "gtin": "88980210854",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 16,
+          "gtin": "88980210842",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 17,
+          "gtin": "8669447628",
+          "capacityCnt": 4,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 18,
+          "gtin": "8669447635",
+          "capacityCnt": 4,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 19,
+          "gtin": "19315904929",
+          "capacityCnt": 4,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 20,
+          "gtin": "88980216119",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 21,
+          "gtin": "8669447611",
+          "capacityCnt": 4,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 22,
+          "gtin": "8669447625",
+          "capacityCnt": 4,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 23,
+          "gtin": "1132104487",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 24,
+          "gtin": "88980210851",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 25,
+          "gtin": "88980210855",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 26,
+          "gtin": "88980210843",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 27,
+          "gtin": "8669447632",
+          "capacityCnt": 4,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 28,
+          "gtin": "8669447653",
+          "capacityCnt": 4,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 29,
+          "gtin": "19315904930",
+          "capacityCnt": 4,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 30,
+          "gtin": "88980216120",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 31,
+          "gtin": "8669447612",
+          "capacityCnt": 4,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 32,
+          "gtin": "8669447626",
+          "capacityCnt": 4,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 33,
+          "gtin": "1132104488",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 34,
+          "gtin": "88980210852",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 35,
+          "gtin": "88980210856",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 36,
+          "gtin": "88980210844",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 37,
+          "gtin": "8669447633",
+          "capacityCnt": 4,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 38,
+          "gtin": "8669447654",
+          "capacityCnt": 4,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 39,
+          "gtin": "19315904928",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 40,
+          "gtin": "88980216120",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 41,
+          "gtin": "8669447613",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 42,
+          "gtin": "8669447599",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 43,
+          "gtin": "1132104489",
+          "capacityCnt": 8,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 44,
+          "gtin": "1132104810",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 45,
+          "gtin": "88980210837",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 46,
+          "gtin": "88980210845",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 47,
+          "gtin": "8669447638",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 48,
+          "gtin": "8669447645",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 49,
+          "gtin": "19315904926",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 50,
+          "gtin": "88980209666",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 51,
+          "gtin": "8669447614",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 52,
+          "gtin": "8669447600",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 53,
+          "gtin": "1132104490",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 54,
+          "gtin": "1132104811",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 55,
+          "gtin": "88980210838",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 56,
+          "gtin": "88980210846",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 57,
+          "gtin": "8669447639",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 58,
+          "gtin": "8669447646",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 59,
+          "gtin": "19315904927",
+          "capacityCnt": 4,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 60,
+          "gtin": "88980209667",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 61,
+          "gtin": "8669447618",
+          "capacityCnt": 4,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 62,
+          "gtin": "8669447604",
+          "capacityCnt": 4,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 63,
+          "gtin": "1132104491",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 64,
+          "gtin": "1132104812",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 65,
+          "gtin": "88980210839",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 66,
+          "gtin": "88980210847",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 67,
+          "gtin": "8669447643",
+          "capacityCnt": 4,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 68,
+          "gtin": "8669447650",
+          "capacityCnt": 4,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 69,
+          "gtin": "19315904934",
+          "capacityCnt": 3,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 70,
+          "gtin": "19315904936",
+          "capacityCnt": 3,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 71,
+          "gtin": "88980209668",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 72,
+          "gtin": "8669447619",
+          "capacityCnt": 4,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 73,
+          "gtin": "8669447605",
+          "capacityCnt": 4,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 74,
+          "gtin": "1132104492",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 75,
+          "gtin": "1132104813",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 76,
+          "gtin": "88980210840",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 77,
+          "gtin": "88980210848",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 78,
+          "gtin": "8669447644",
+          "capacityCnt": 4,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 79,
+          "gtin": "8669447651",
+          "capacityCnt": 4,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 80,
+          "gtin": "19315904935",
+          "capacityCnt": 4,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 81,
+          "gtin": "88980209668",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        }
+      ],
+      "assignments": [
+        {
+          "sgln": "0078742000992100001529856",
+          "assignedDatetime": 1588177069633,
+          "assigner": "system"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "items": [
+        {
+          "seqNumber": 1,
+          "gtin": "3825720518",
+          "capacityCnt": 5,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 2,
+          "gtin": "4529906101",
+          "capacityCnt": 8,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 3,
+          "gtin": "4529900670",
+          "capacityCnt": 8,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 4,
+          "gtin": "88451403722",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 5,
+          "gtin": "88451403720",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 6,
+          "gtin": "88530694221",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 7,
+          "gtin": "19416419270",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 8,
+          "gtin": "3825720519",
+          "capacityCnt": 5,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 9,
+          "gtin": "4529906102",
+          "capacityCnt": 8,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 10,
+          "gtin": "4529900671",
+          "capacityCnt": 8,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 11,
+          "gtin": "88451403723",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 12,
+          "gtin": "88451403721",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 13,
+          "gtin": "88530694220",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 14,
+          "gtin": "19416419249",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 15,
+          "gtin": "3825720520",
+          "capacityCnt": 5,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 16,
+          "gtin": "4529904834",
+          "capacityCnt": 8,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 17,
+          "gtin": "4529903746",
+          "capacityCnt": 8,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 18,
+          "gtin": "88451403712",
+          "capacityCnt": 7,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 19,
+          "gtin": "88451403716",
+          "capacityCnt": 7,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 20,
+          "gtin": "88530694138",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 21,
+          "gtin": "19416419991",
+          "capacityCnt": 3,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 22,
+          "gtin": "3825720521",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 23,
+          "gtin": "3825720514",
+          "capacityCnt": 8,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 24,
+          "gtin": "4529904835",
+          "capacityCnt": 8,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 25,
+          "gtin": "4529903747",
+          "capacityCnt": 8,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 26,
+          "gtin": "88451403713",
+          "capacityCnt": 7,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 27,
+          "gtin": "88451403717",
+          "capacityCnt": 7,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 28,
+          "gtin": "88530694137",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 29,
+          "gtin": "19416419990",
+          "capacityCnt": 3,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 30,
+          "gtin": "3825720515",
+          "capacityCnt": 8,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 31,
+          "gtin": "4529903479",
+          "capacityCnt": 10,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 32,
+          "gtin": "4529903404",
+          "capacityCnt": 10,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 33,
+          "gtin": "88451403714",
+          "capacityCnt": 7,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 34,
+          "gtin": "88451403718",
+          "capacityCnt": 7,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 35,
+          "gtin": "88530687625",
+          "capacityCnt": 8,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 36,
+          "gtin": "19416423714",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 37,
+          "gtin": "3825720516",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 38,
+          "gtin": "4529903480",
+          "capacityCnt": 10,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 39,
+          "gtin": "4529903405",
+          "capacityCnt": 10,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 40,
+          "gtin": "88451403715",
+          "capacityCnt": 7,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 41,
+          "gtin": "88451403719",
+          "capacityCnt": 7,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 42,
+          "gtin": "88530687624",
+          "capacityCnt": 8,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 43,
+          "gtin": "19416423713",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 44,
+          "gtin": "3825720517",
+          "capacityCnt": 6,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        }
+      ],
+      "assignments": [
+        {
+          "sgln": "0078742000992100001529857",
+          "assignedDatetime": 1588177069633,
+          "assigner": "system"
+        }
+      ]
+    }
+  ],
+  "multiplier": 1
+}
+

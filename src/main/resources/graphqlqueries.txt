@@ -1,0 +1,147 @@
+{
+#   modular(countryCode:"US", storeNumber:100, planId:11) {
+#     planId
+#     store {
+#       gln,
+#       countryCode,
+#       storeNumber
+#     }
+#     modularSections {
+#       sectionNumber
+#       modularSectionItems {
+#         gtin
+#       }
+#       modularSectionAssignments {
+#         section {
+#           sgln,
+#           name
+#         }
+#       }
+#     }
+
+#    }
+
+  #  modulars {
+  #   planId
+  #    store {
+  #     gln,
+  #     countryCode,
+  #     storeNumber
+  #   }
+  # }
+
+  # sectionBySgln (sgln:"111111") {
+  #   name
+  #   store {
+  #     gln
+  #     countryCode
+  #     storeNumber
+  #   }
+  # }
+
+  # section (coutryCode: "US", storeNumber: 101, name: "A2-1") {
+  #   name
+  #   sgln
+  #   store {
+  #     gln
+  #     countryCode
+  #     storeNumber
+  #   }
+  # }
+
+#   sections (gln:"13568") {
+#      name
+#     sgln
+#     store {
+#       gln
+#       countryCode
+#       storeNumber
+#     }
+
+#   }
+
+#    section (coutryCode: "US", storeNumber: 101, name: "A2-1") {
+#     name
+#     sgln
+#     store {
+#       gln
+#       countryCode
+#       storeNumber
+#     }
+#     flexes {
+#       gtin
+#       assigner
+
+#     }
+#     modularSectionAssignments {
+#       assigner
+#       modularSection {
+#         sectionNumber
+#         modular {
+#           planId
+#         }
+#         modularSectionItems {
+#           sequenceNumber
+#           gtin
+#         }
+#       }
+#     }
+#   }
+
+#   section (coutryCode: "US", storeNumber: 101, name: "A2-1") {
+#     name
+#     sgln
+#     store {
+#       gln
+#       countryCode
+#       storeNumber
+#     }
+
+#    items {
+#     gtin
+#   }
+#   }
+  # item (coutryCode: "US", storeNumber:100, gtin: "7111") {
+  #   gtin
+  #   flexes {
+  #     section {
+  #       name
+  #     }
+  #   }
+  #   modularSectionAssignments {
+  #     section {
+  #       name
+  #     }
+  #     modularSection {
+  #      sectionNumber
+  #     }
+  #   }
+  # }
+
+   # item (coutryCode: "US", storeNumber:100, gtin: "7111") {
+   #  gtin
+   #  sections {
+   #    name
+   #  }
+   # }
+
+   item (coutryCode: "US", storeNumber:100, gtin: "7111") {
+    gtin
+    flexes {
+      section
+      {
+        name
+      }
+    }
+   modularSections {
+    sectionNumber
+    modularSectionAssignments {
+      section {
+        sgln,
+        name
+      }
+      assigner
+    }
+  }
+  }
+}
