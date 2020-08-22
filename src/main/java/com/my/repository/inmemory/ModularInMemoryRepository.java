@@ -1,4 +1,4 @@
-package com.my.repository;
+package com.my.repository.inmemory;
 
 import com.my.db.DBData;
 import com.my.model.Modular;
@@ -9,10 +9,10 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public class ModularRepository {
+public class ModularInMemoryRepository {
 
     @Autowired
-    private StoreRepository storeRepository;
+    private StoreInMemoryRepository storeInMemoryRepository;
 
     public List<Modular> getModulars() {
         return DBData.modulars;
@@ -20,7 +20,7 @@ public class ModularRepository {
 
     public Modular getModular(String countryCode, int storeNumber, long planId) {
         return DBData.modulars.stream().filter(m -> {
-            Store store = storeRepository.getStoreByGln(m.getStore().getGln());
+            Store store = storeInMemoryRepository.getStoreByGln(m.getStore().getGln());
             return store.getCountryCode().equals(countryCode) && store.getStoreNumber() == storeNumber && m.getPlanId() == planId;
         })
                 .findFirst()

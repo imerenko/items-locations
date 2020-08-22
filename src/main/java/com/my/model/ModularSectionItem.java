@@ -11,4 +11,14 @@ public class ModularSectionItem {
     private int sequenceNumber;
     private String gtin;
     private ModularSection modularSection;
+    private int capacityCnt;
+    private int horizFacingCnt;
+    private int vertFacingCnt;
+    private int merchandiseStyleCode;
+
+    public ModularSectionItem(int sequenceNumber, String gtin,  ModularSection modularSection) {
+        this.setSequenceNumber(sequenceNumber);
+        this.setGtin(gtin);
+        this.setModularSection(modularSection);
+    }
 }

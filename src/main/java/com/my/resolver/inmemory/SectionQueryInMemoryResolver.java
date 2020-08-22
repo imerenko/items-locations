@@ -1,28 +1,28 @@
-package com.my.resolver;
+package com.my.resolver.inmemory;
 
-import com.coxautodev.graphql.tools.GraphQLQueryResolver;
+import graphql.kickstart.tools.GraphQLQueryResolver;
 import com.my.model.Section;
-import com.my.repository.SectionRepository;
+import com.my.repository.inmemory.SectionInMemoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-@Component
-public class SectionQueryResolver implements GraphQLQueryResolver {
+//@Component
+public class SectionQueryInMemoryResolver implements GraphQLQueryResolver {
 
     @Autowired
-    private SectionRepository sectionRepository;
+    private SectionInMemoryRepository sectionInMemoryRepository;
 
     public List<Section> getSections(String gln) {
-        return sectionRepository.getSections(gln);
+        return sectionInMemoryRepository.getSections(gln);
     }
 
     public Section getSectionBySgln(String sgln) {
-        return sectionRepository.getSectionBySgln(sgln);
+        return sectionInMemoryRepository.getSectionBySgln(sgln);
     }
 
     public Section getSection(String countryCode, int storeNumber, String name) {
-        return sectionRepository.getSection(countryCode, storeNumber, name);
+        return sectionInMemoryRepository.getSection(countryCode, storeNumber, name);
     }
 }

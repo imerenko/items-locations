@@ -1,19 +1,19 @@
-package com.my.resolver;
+package com.my.resolver.inmemory;
 
-import com.coxautodev.graphql.tools.GraphQLResolver;
+import graphql.kickstart.tools.GraphQLResolver;
 import com.my.model.Flex;
 import com.my.model.Section;
-import com.my.repository.SectionRepository;
+import com.my.repository.inmemory.SectionInMemoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-@Component
-public class FlexResolver implements GraphQLResolver<Flex> {
+//@Component
+public class FlexInMemoryResolver implements GraphQLResolver<Flex> {
 
     @Autowired
-    private SectionRepository sectionRepository;
+    private SectionInMemoryRepository sectionInMemoryRepository;
 
     public Section getSection(Flex flex) {
-        return sectionRepository.getSectionBySgln(flex.getSection().getSgln());
+        return sectionInMemoryRepository.getSectionBySgln(flex.getSection().getSgln());
     }
 }

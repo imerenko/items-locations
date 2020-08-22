@@ -1,4 +1,4 @@
-package com.my.repository;
+package com.my.repository.inmemory;
 
 import com.my.db.DBData;
 import com.my.model.ModularSection;
@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Repository
-public class ModularSectionItemRepository {
+public class ModularSectionItemInMemoryRepository {
 
     public List<ModularSectionItem> getModularSectionItems(long modularSectionId) {
         return DBData.modularSectionItems.stream().filter(msi -> (msi.getModularSection().getId() == modularSectionId)).collect(Collectors.toList());

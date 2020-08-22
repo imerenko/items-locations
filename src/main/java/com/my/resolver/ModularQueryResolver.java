@@ -1,25 +1,21 @@
-package com.my.resolver.inmemory;
+package com.my.resolver;
 
-import com.coxautodev.graphql.tools.GraphQLQueryResolver;
 import com.my.model.Modular;
-import com.my.repository.inmemory.ModularInMemoryRepository;
+import com.my.repository.ModularRepository;
+import graphql.kickstart.tools.GraphQLQueryResolver;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import java.util.List;
-
-//@Component
-public class ModularQueryInMemoryResolver implements GraphQLQueryResolver {
+@Component
+public class ModularQueryResolver implements GraphQLQueryResolver {
 
     @Autowired
-    private ModularInMemoryRepository modularInMemoryRepository;
-
-    public List<Modular> getModulars() {
-        return modularInMemoryRepository.getModulars();
-    }
+    private ModularRepository modularRepository;
 
     public Modular getModular(String countryCode, int storeNumber, long planId) {
-        return modularInMemoryRepository.getModular(countryCode, storeNumber, planId);
+        Modular result;
+        result = modularRepository.getModularByPlanId(countryCode, storeNumber, planId);
+        return result;
     }
 
 }

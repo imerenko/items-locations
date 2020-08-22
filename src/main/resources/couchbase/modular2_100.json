@@ -1,0 +1,167 @@
+{
+  "type" : "modular",
+  "planId": 11470331,
+  "ckbPlanId": 5939376,
+  "modularName": "004ftx078in CANDY PERMANENT ENDCAP GRP40",
+  "store": {
+    "gln": "0078742000992",
+    "countryCode": "US",
+    "storeNumber": 100
+  },
+  "category": {
+    "number": 92,
+    "categoryName": "D1 PERMANENT ENDCAPS",
+    "department": {
+      "number": 1,
+      "departmentName": "CANDY & TOBACCO"
+    }
+  },
+  "sections": [
+    {
+      "number": 1,
+      "items": [
+        {
+          "seqNumber": 1,
+          "gtin": "19416425154",
+          "capacityCnt": 21,
+          "horizFacingCnt": 3,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 2,
+          "gtin": "3400021458",
+          "capacityCnt": 20,
+          "horizFacingCnt": 4,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 3,
+          "gtin": "4000055773",
+          "capacityCnt": 21,
+          "horizFacingCnt": 3,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 4,
+          "gtin": "3400021458",
+          "capacityCnt": 5,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 5,
+          "gtin": "3400040040",
+          "capacityCnt": 14,
+          "horizFacingCnt": 2,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 6,
+          "gtin": "3400099982",
+          "capacityCnt": 8,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 7,
+          "gtin": "4000055773",
+          "capacityCnt": 21,
+          "horizFacingCnt": 3,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 8,
+          "gtin": "3400039991",
+          "capacityCnt": 15,
+          "horizFacingCnt": 3,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 9,
+          "gtin": "3400099982",
+          "capacityCnt": 8,
+          "horizFacingCnt": 1,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 10,
+          "gtin": "4000055757",
+          "capacityCnt": 21,
+          "horizFacingCnt": 3,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 11,
+          "gtin": "3400013480",
+          "capacityCnt": 28,
+          "horizFacingCnt": 4,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 12,
+          "gtin": "4000055488",
+          "capacityCnt": 21,
+          "horizFacingCnt": 3,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 13,
+          "gtin": "3400013480",
+          "capacityCnt": 14,
+          "horizFacingCnt": 2,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 14,
+          "gtin": "3400044709",
+          "capacityCnt": 12,
+          "horizFacingCnt": 2,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 15,
+          "gtin": "1900017030",
+          "capacityCnt": 21,
+          "horizFacingCnt": 3,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        },
+        {
+          "seqNumber": 16,
+          "gtin": "3400044709",
+          "capacityCnt": 24,
+          "horizFacingCnt": 4,
+          "vertFacingCnt": 1,
+          "merchandiseStyleCode": 0
+        }
+      ],
+      "assignments": [
+        {
+          "section": {
+            "legacyId": "11112131",
+            "name": "A2-1",
+            "sgln": "0078742000992100001117634",
+            "sgln195" : "0078742000992W.SF.A.2.1"
+          },
+          "assignedDatetime": 1591814986003
+        }
+      ]
+    }
+  ],
+  "multiplier": 1
+}
+

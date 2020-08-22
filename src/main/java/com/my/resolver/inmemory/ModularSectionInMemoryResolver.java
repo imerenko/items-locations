@@ -1,44 +1,44 @@
-package com.my.resolver;
+package com.my.resolver.inmemory;
 
-import com.coxautodev.graphql.tools.GraphQLResolver;
+import graphql.kickstart.tools.GraphQLResolver;
 import com.my.model.Modular;
 import com.my.model.ModularSection;
 import com.my.model.ModularSectionAssignment;
 import com.my.model.ModularSectionItem;
-import com.my.repository.ModularRepository;
-import com.my.repository.ModularSectionAssignmentRepository;
-import com.my.repository.ModularSectionItemRepository;
-import com.my.repository.ModularSectionRepository;
+import com.my.repository.inmemory.ModularInMemoryRepository;
+import com.my.repository.inmemory.ModularSectionAssignmentInMemoryRepository;
+import com.my.repository.inmemory.ModularSectionItemInMemoryRepository;
+import com.my.repository.inmemory.ModularSectionInMemoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-@Component
-public class ModularSectionResolver implements GraphQLResolver<ModularSection> {
+//@Component
+public class ModularSectionInMemoryResolver implements GraphQLResolver<ModularSection> {
 
     @Autowired
-    private ModularSectionItemRepository modularSectionItemRepository;
+    private ModularSectionItemInMemoryRepository modularSectionItemInMemoryRepository;
 
     @Autowired
-    private ModularRepository modularRepository;
+    private ModularInMemoryRepository modularInMemoryRepository;
 
     @Autowired
-    private ModularSectionAssignmentRepository modularSectionAssignmentRepository;
+    private ModularSectionAssignmentInMemoryRepository modularSectionAssignmentInMemoryRepository;
 
     @Autowired
-    private ModularSectionRepository modularSectionRepository;
+    private ModularSectionInMemoryRepository modularSectionInMemoryRepository;
 
     public List<ModularSectionItem> getModularSectionItems(ModularSection modularSection) {
-       return  modularSectionItemRepository.getModularSectionItems(modularSection.getId());
+       return  modularSectionItemInMemoryRepository.getModularSectionItems(modularSection.getId());
     }
 
     public List<ModularSectionAssignment> getModularSectionAssignments(ModularSection modularSection) {
-        return modularSectionAssignmentRepository.getModularSectionAssignments(modularSection.getId());
+        return modularSectionAssignmentInMemoryRepository.getModularSectionAssignments(modularSection.getId());
     }
 
     public Modular getModular(ModularSection modularSection) {
-        ModularSection fullModularSection = modularSectionRepository.getModularSection(modularSection.getId());
-        return modularRepository.getModular(fullModularSection.getModular().getId());
+        ModularSection fullModularSection = modularSectionInMemoryRepository.getModularSection(modularSection.getId());
+        return modularInMemoryRepository.getModular(fullModularSection.getModular().getId());
     }
 }

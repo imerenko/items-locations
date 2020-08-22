@@ -1,4 +1,4 @@
-package com.my.repository;
+package com.my.repository.inmemory;
 
 import com.my.db.DBData;
 import com.my.model.Flex;
@@ -14,22 +14,22 @@ import java.util.stream.Collectors;
  * Flex repository
  */
 @Repository
-public class FlexRepository {
+public class FlexInMemoryRepository {
 
     @Autowired
-    private StoreRepository storeRepository;
+    private StoreInMemoryRepository storeInMemoryRepository;
 
     @Autowired
-    private SectionRepository sectionRepository;
+    private SectionInMemoryRepository sectionInMemoryRepository;
 
     public List<Flex> getFlexBySgln(String sgln) {
         return DBData.flexes.stream().filter(f -> (f.getSection().getSgln().equals(sgln))).collect(Collectors.toList());
     }
 
     public List<Flex> getFlexByGtin(String countryCode, int storeNumber, String gtin) {
-        Store store = storeRepository.getStoreByCountryCodeAndStoreNumber(countryCode, storeNumber);
+        Store store = storeInMemoryRepository.getStoreByCountryCodeAndStoreNumber(countryCode, storeNumber);
         return DBData.flexes.stream().filter(f -> {
-                    Section section = sectionRepository.getSectionBySgln(f.getSection().getSgln());
+                    Section section = sectionInMemoryRepository.getSectionBySgln(f.getSection().getSgln());
                     return f.getGtin().equals(gtin) && section.getStore().getGln().equals(store.getGln());
                 }
 

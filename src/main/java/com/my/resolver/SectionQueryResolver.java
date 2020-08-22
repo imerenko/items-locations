@@ -1,28 +1,25 @@
-package com.my.resolver.inmemory;
+package com.my.resolver;
 
-import graphql.kickstart.tools.GraphQLQueryResolver;
 import com.my.model.Section;
-import com.my.repository.inmemory.SectionInMemoryRepository;
+import com.my.model.Store;
+import com.my.repository.SectionRepository;
+import graphql.kickstart.tools.GraphQLQueryResolver;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import java.util.List;
-
-//@Component
-public class SectionQueryInMemoryResolver implements GraphQLQueryResolver {
+@Component
+public class SectionQueryResolver implements GraphQLQueryResolver {
 
     @Autowired
-    private SectionInMemoryRepository sectionInMemoryRepository;
-
-    public List<Section> getSections(String gln) {
-        return sectionInMemoryRepository.getSections(gln);
-    }
-
-    public Section getSectionBySgln(String sgln) {
-        return sectionInMemoryRepository.getSectionBySgln(sgln);
-    }
+    private SectionRepository sectionRepository;
 
     public Section getSection(String countryCode, int storeNumber, String name) {
-        return sectionInMemoryRepository.getSection(countryCode, storeNumber, name);
+        Section section = null;
+         section = sectionRepository.getSectionByName(countryCode, storeNumber, name);
+        if (section != null) {
+            Store store = new Store(countryCode, storeNumber);
+            section.setStore(store);
+        }
+        return section;
     }
 }

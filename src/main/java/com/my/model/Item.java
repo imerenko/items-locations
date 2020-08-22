@@ -12,8 +12,9 @@ import java.util.List;
 public class Item {
     private String gtin;
     private List<Flex> flexes;
-    private List<ModularSectionAssignment> modularSectionAssignments;
-    private List<Section> sections;
+    //private List<ModularSectionAssignment> modularSectionAssignments;
+   // private List<Section> sections;
+    private List<ModularSectionItem> modularSectionItems;
     private Store store;
 
     public Item(String gtin) {

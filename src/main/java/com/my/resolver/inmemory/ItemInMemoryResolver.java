@@ -1,11 +1,11 @@
-package com.my.resolver;
+package com.my.resolver.inmemory;
 
-import com.coxautodev.graphql.tools.GraphQLResolver;
+import graphql.kickstart.tools.GraphQLResolver;
 import com.my.model.*;
-import com.my.repository.FlexRepository;
-import com.my.repository.ModularSectionAssignmentRepository;
-import com.my.repository.ModularSectionRepository;
-import com.my.repository.SectionRepository;
+import com.my.repository.inmemory.FlexInMemoryRepository;
+import com.my.repository.inmemory.ModularSectionAssignmentInMemoryRepository;
+import com.my.repository.inmemory.ModularSectionInMemoryRepository;
+import com.my.repository.inmemory.SectionInMemoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -14,49 +14,49 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-@Component
-public class ItemResolver implements GraphQLResolver<Item> {
+//@Component
+public class ItemInMemoryResolver implements GraphQLResolver<Item> {
 
     @Autowired
-    private FlexRepository flexRepository;
+    private FlexInMemoryRepository flexInMemoryRepository;
 
     @Autowired
-    private ModularSectionAssignmentRepository modularSectionAssignmentRepository;
+    private ModularSectionAssignmentInMemoryRepository modularSectionAssignmentInMemoryRepository;
 
     @Autowired
-    private ModularSectionRepository modularSectionRepository;
+    private ModularSectionInMemoryRepository modularSectionInMemoryRepository;
 
     @Autowired
-    private SectionRepository sectionRepository;
+    private SectionInMemoryRepository sectionInMemoryRepository;
 
 
     public List<Flex> getFlexes(Item item) {
-        return flexRepository.getFlexByGtin(item.getStore().getCountryCode(), item.getStore().getStoreNumber(), item.getGtin());
+        return flexInMemoryRepository.getFlexByGtin(item.getStore().getCountryCode(), item.getStore().getStoreNumber(), item.getGtin());
     }
 
     public List<ModularSectionAssignment> getModularSectionAssignments(Item item) {
-        return modularSectionAssignmentRepository.getModularSectionAssignments(
+        return modularSectionAssignmentInMemoryRepository.getModularSectionAssignments(
                 item.getStore().getCountryCode(), item.getStore().getStoreNumber(), item.getGtin());
     }
 
     public List<Section> getSections(Item item) {
-        List<Flex> flexes = flexRepository.getFlexByGtin(item.getStore().getCountryCode(), item.getStore().getStoreNumber(), item.getGtin());
-        List<ModularSectionAssignment> modularSectionAssignments = modularSectionAssignmentRepository.getModularSectionAssignments(
+        List<Flex> flexes = flexInMemoryRepository.getFlexByGtin(item.getStore().getCountryCode(), item.getStore().getStoreNumber(), item.getGtin());
+        List<ModularSectionAssignment> modularSectionAssignments = modularSectionAssignmentInMemoryRepository.getModularSectionAssignments(
                 item.getStore().getCountryCode(), item.getStore().getStoreNumber(), item.getGtin());
         Set<Section> sections = new HashSet<>();
 
         flexes.stream().forEach(f -> {
-            sections.add(sectionRepository.getSectionBySgln(f.getSection().getSgln()));
+            sections.add(sectionInMemoryRepository.getSectionBySgln(f.getSection().getSgln()));
         });
         modularSectionAssignments.stream().forEach(msa -> {
-            sections.add(sectionRepository.getSectionBySgln(msa.getSection().getSgln()));
+            sections.add(sectionInMemoryRepository.getSectionBySgln(msa.getSection().getSgln()));
         });
 
         return new ArrayList<>(sections);
     }
 
     public List<ModularSection> getModularSections(Item item) {
-        return modularSectionRepository.getModularSectionsByGtin(item.getGtin());
+        return modularSectionInMemoryRepository.getModularSectionsByGtin(item.getGtin());
     }
 
 }

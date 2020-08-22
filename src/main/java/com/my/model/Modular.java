@@ -13,8 +13,11 @@ public class Modular {
 
     private long id;
     private long planId;
+    private Long ckbPlanId;
     private Store store;
     private String modularName;
+    private Category category;
+    private String status;
     private List<ModularSection> modularSections;
 
     public Modular(long id) {

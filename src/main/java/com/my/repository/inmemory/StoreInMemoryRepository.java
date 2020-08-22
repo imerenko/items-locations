@@ -1,11 +1,11 @@
-package com.my.repository;
+package com.my.repository.inmemory;
 
 import com.my.db.DBData;
 import com.my.model.Store;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class StoreRepository {
+public class StoreInMemoryRepository {
 
     public Store getStoreByGln(String gln) {
        return DBData.stores.stream().filter(store -> (

@@ -1,30 +1,28 @@
-package com.my.resolver;
+package com.my.resolver.inmemory;
 
-import com.coxautodev.graphql.tools.GraphQLResolver;
+import graphql.kickstart.tools.GraphQLResolver;
 import com.my.model.ModularSection;
 import com.my.model.ModularSectionAssignment;
 import com.my.model.Section;
-import com.my.repository.ModularSectionRepository;
-import com.my.repository.SectionRepository;
+import com.my.repository.inmemory.ModularSectionInMemoryRepository;
+import com.my.repository.inmemory.SectionInMemoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import java.util.List;
-
-@Component
-public class ModularSectionAssignmentResolver implements GraphQLResolver<ModularSectionAssignment> {
+//@Component
+public class ModularSectionAssignmentInMemoryResolver implements GraphQLResolver<ModularSectionAssignment> {
 
     @Autowired
-    private SectionRepository sectionRepository;
+    private SectionInMemoryRepository sectionInMemoryRepository;
 
     @Autowired
-    private ModularSectionRepository modularSectionRepository;
+    private ModularSectionInMemoryRepository modularSectionInMemoryRepository;
 
     public Section getSection(ModularSectionAssignment modularSectionAssignment) {
-        return sectionRepository.getSectionBySgln(modularSectionAssignment.getSection().getSgln());
+        return sectionInMemoryRepository.getSectionBySgln(modularSectionAssignment.getSection().getSgln());
     }
 
     public ModularSection getModularSection(ModularSectionAssignment modularSectionAssignment) {
-       return modularSectionRepository.getModularSection(modularSectionAssignment.getModularSection().getId());
+       return modularSectionInMemoryRepository.getModularSection(modularSectionAssignment.getModularSection().getId());
     }
 }

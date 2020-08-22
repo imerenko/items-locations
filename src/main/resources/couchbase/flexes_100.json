@@ -1,0 +1,95 @@
+{
+  "flexes" : [
+    {
+      "type": "flex",
+      "gtin": "19416425154",
+      "store": {
+        "gln": "0078742000992",
+        "countryCode": "US",
+        "storeNumber": 100
+      },
+      "section": {
+        "legacyId": "11112123",
+        "name": "A1-3",
+        "sgln": "0078742000992100011117643",
+        "sgln195": "0078742000992W.SF.A.1.3"
+      }
+    },
+    {
+      "type": "flex",
+      "gtin": "19416425155",
+      "store": {
+        "gln": "0078742000992",
+        "countryCode": "US",
+        "storeNumber": 100
+      },
+      "section": {
+        "legacyId": "11112123",
+        "name": "A1-3",
+        "sgln": "0078742000992100011117643",
+        "sgln195": "0078742000992W.SF.A.1.3"
+      }
+    },
+    {
+      "type": "flex",
+      "gtin": "19416425156",
+      "store": {
+        "gln": "0078742000992",
+        "countryCode": "US",
+        "storeNumber": 100
+      },
+      "section": {
+        "legacyId": "11112123",
+        "name": "A1-3",
+        "sgln": "0078742000992100011117643",
+        "sgln195": "0078742000992W.SF.A.1.3"
+      }
+    },
+    {
+      "type": "flex",
+      "gtin": "19416425155",
+      "store": {
+        "gln": "0078742000992",
+        "countryCode": "US",
+        "storeNumber": 100
+      },
+      "section": {
+        "legacyId": "11112131",
+        "name": "A2-1",
+        "sgln": "0078742000992100001117634",
+        "sgln195": "0078742000992W.SF.A.2.1"
+      }
+    },
+    {
+      "type": "flex",
+      "gtin": "19416425160",
+      "store": {
+        "gln": "0078742000992",
+        "countryCode": "US",
+        "storeNumber": 100
+      },
+      "section": {
+        "legacyId": "11112131",
+        "name": "A2-1",
+        "sgln": "0078742000992100001117634",
+        "sgln195": "0078742000992W.SF.A.2.1"
+      }
+    },
+    {
+      "type": "flex",
+      "gtin": "19416425161",
+      "store": {
+        "gln": "0078742000992",
+        "countryCode": "US",
+        "storeNumber": 100
+      },
+      "section": {
+        "legacyId": "11112131",
+        "name": "A2-1",
+        "sgln": "0078742000992100001117634",
+        "sgln195": "0078742000992W.SF.A.2.1"
+      }
+    }
+
+  ]
+}

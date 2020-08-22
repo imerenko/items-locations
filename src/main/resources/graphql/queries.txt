@@ -1,0 +1,158 @@
+{
+#   modular(countryCode:"US", storeNumber:100, planId:11251049) {
+#     planId
+#     category {
+#       name
+#       number
+#       department {
+#         name,
+#         number
+#       }
+#     }
+
+#      modularSections {
+#       sectionNumber
+#       modularSectionAssignments {
+#         assigner
+#         assignedDateTime
+#         section {
+#           sgln
+#           sgln195
+#           name
+#         }
+#       }
+#       modularSectionItems {
+#         sequenceNumber
+#         gtin
+#         capacityCnt
+#       }
+
+
+
+#     }
+
+#    }
+
+
+
+#    section (coutryCode: "US", storeNumber: 100, name: "A1-3") {
+#     name
+#     sgln
+#     flexes {
+#       gtin
+#       assigner
+
+#     }
+#     modularSectionAssignments {
+#       assigner
+#       assignedDateTime
+#       modularSection {
+#         sectionNumber
+#         modular {
+#           planId
+#         }
+#         modularSectionItems {
+#           sequenceNumber
+#           gtin
+#           capacityCnt
+#         }
+#       }
+#     }
+#   }
+
+#   section (coutryCode: "US", storeNumber: 101, name: "A2-1") {
+#     name
+#     sgln
+#     store {
+#       gln
+#       countryCode
+#       storeNumber
+#     }
+
+#    items {
+#     gtin
+#   }
+#   }
+
+  #  section (coutryCode: "US", storeNumber: 100, name: "A1-3") {
+  #   items {
+  #     gtin
+  #   }
+  # }
+
+
+#   item (coutryCode: "US", storeNumber:100, gtin: "19416425154") {
+#     gtin
+#     flexes {
+#       section {
+#         name
+#       }
+#     }
+#     modularSectionItems {
+#       sequenceNumber
+#       gtin
+#       capacityCnt
+#       horizFacingCnt
+#       vertFacingCnt
+#       modularSection {
+#         sectionNumber
+#         modularSectionAssignments {
+#           assigner
+#           assignedDateTime
+#           section {
+#             sgln
+#             sgln195
+#             name
+#             legacyId
+#           }
+#         }
+#         modular {
+#           planId
+#           modularName
+#           category {
+#             number
+#             name
+#             department {
+#             number
+#             name
+#             }
+#           }
+#         }
+#       }
+#     }
+
+
+ # }
+
+   item (coutryCode: "US", storeNumber:100, gtin: "19416425154") {
+    gtin
+    sections {
+      name
+      sgln195
+      sgln
+      legacyId
+    }
+   }
+
+
+
+  # flexesByGtin (coutryCode: "US", storeNumber:100, gtin: "19416425155") {
+  #   gtin
+  #   section
+  #    {
+  #     sgln
+  #     name
+  #     legacyId
+  #   }
+  # }
+
+  # flexesBySectionName  (coutryCode: "US", storeNumber:100, sectionName: "A1-3") {
+  #   gtin
+  #   section
+  #    {
+  #     sgln
+  #     name
+  #     legacyId
+  #   }
+  #  }
+}

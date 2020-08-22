@@ -1,4 +1,4 @@
-package com.my.repository;
+package com.my.repository.inmemory;
 
 import com.my.db.DBData;
 import com.my.model.*;
@@ -9,19 +9,19 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Repository
-public class ModularSectionAssignmentRepository {
+public class ModularSectionAssignmentInMemoryRepository {
 
     @Autowired
-    private StoreRepository storeRepository;
+    private StoreInMemoryRepository storeInMemoryRepository;
 
     @Autowired
-    private ModularSectionItemRepository modularSectionItemRepository;
+    private ModularSectionItemInMemoryRepository modularSectionItemInMemoryRepository;
 
     @Autowired
-    private ModularRepository modularRepository;
+    private ModularInMemoryRepository modularInMemoryRepository;
 
     @Autowired
-    private ModularSectionRepository modularSectionRepository;
+    private ModularSectionInMemoryRepository modularSectionInMemoryRepository;
 
     public List<ModularSectionAssignment> getModularSectionAssignments(long modularSectionId) {
         return DBData.modularSectionAssignments.stream().filter(msa -> (msa.getModularSection().getId() == modularSectionId)).collect(Collectors.toList());
@@ -32,12 +32,12 @@ public class ModularSectionAssignmentRepository {
     }
 
     public List<ModularSectionAssignment> getModularSectionAssignments(String countryCode, int storeNumber, String gtin) {
-        Store store = storeRepository.getStoreByCountryCodeAndStoreNumber(countryCode, storeNumber);
+        Store store = storeInMemoryRepository.getStoreByCountryCodeAndStoreNumber(countryCode, storeNumber);
         return DBData.modularSectionAssignments.stream().filter(msa -> {
-            ModularSection modularSection = modularSectionRepository.getModularSection(msa.getModularSection().getId());
-            Modular modular = modularRepository.getModular(modularSection.getModular().getId());
+            ModularSection modularSection = modularSectionInMemoryRepository.getModularSection(msa.getModularSection().getId());
+            Modular modular = modularInMemoryRepository.getModular(modularSection.getModular().getId());
             if (modular.getStore().getGln().equals(store.getGln())) {
-                List<ModularSectionItem> modularSectionItems = modularSectionItemRepository.getModularSectionItems(msa.getModularSection().getId());
+                List<ModularSectionItem> modularSectionItems = modularSectionItemInMemoryRepository.getModularSectionItems(msa.getModularSection().getId());
                 return modularSectionItems.stream().anyMatch(msi -> (msi.getGtin().equals(gtin)));
             } else {
                 return false;

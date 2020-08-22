@@ -1,10 +1,10 @@
 {
+  "type" : "modular",
   "planId": 11251049,
   "ckbPlanId": null,
-   "modularName": "012ftX078in SOCKS TIGHTS UW D1SC TS",
-  "gln": "0078742000992",
+  "modularName": "012ftX078in SOCKS TIGHTS UW D1SC TS",
   "status": "Confirmed",
-  "type" : "modular",
+  "gln": "0078742000992",
   "countryCode" : "US",
   "storeNumber" : 100,
   "category": {

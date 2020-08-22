@@ -2,6 +2,7 @@ package com.my.db;
 
 import com.my.model.*;
 
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -42,14 +43,14 @@ public class DBData {
     private static List<ModularSectionAssignment> createModularSectionAssignments() {
         List<ModularSectionAssignment> modularSectionAssignments = new ArrayList<>();
 
-        modularSectionAssignments.add(new ModularSectionAssignment(new ModularSection(1), new Section("111111"), "John Smith"));
-        modularSectionAssignments.add(new ModularSectionAssignment(new ModularSection(2), new Section("111112"), "Jane Smith"));
-        modularSectionAssignments.add(new ModularSectionAssignment(new ModularSection(3), new Section("222222"), "System"));
-        modularSectionAssignments.add(new ModularSectionAssignment(new ModularSection(4), new Section("333333"), "John Smith"));
-        modularSectionAssignments.add(new ModularSectionAssignment(new ModularSection(5), new Section("333334"), "Jane Smith"));
-        modularSectionAssignments.add(new ModularSectionAssignment(new ModularSection(6), new Section("333335"), "System"));
-        modularSectionAssignments.add(new ModularSectionAssignment(new ModularSection(7), new Section("333336"), "John Smith"));
-        modularSectionAssignments.add(new ModularSectionAssignment(new ModularSection(7), new Section("333339"), "John Doe"));
+        modularSectionAssignments.add(new ModularSectionAssignment(new ModularSection(1), new Section("111111"), "John Smith", LocalDateTime.now()));
+        modularSectionAssignments.add(new ModularSectionAssignment(new ModularSection(2), new Section("111112"), "Jane Smith", LocalDateTime.now()));
+        modularSectionAssignments.add(new ModularSectionAssignment(new ModularSection(3), new Section("222222"), "System", LocalDateTime.now()));
+        modularSectionAssignments.add(new ModularSectionAssignment(new ModularSection(4), new Section("333333"), "John Smith", LocalDateTime.now()));
+        modularSectionAssignments.add(new ModularSectionAssignment(new ModularSection(5), new Section("333334"), "Jane Smith", LocalDateTime.now()));
+        modularSectionAssignments.add(new ModularSectionAssignment(new ModularSection(6), new Section("333335"), "System", LocalDateTime.now()));
+        modularSectionAssignments.add(new ModularSectionAssignment(new ModularSection(7), new Section("333336"), "John Smith", LocalDateTime.now()));
+        modularSectionAssignments.add(new ModularSectionAssignment(new ModularSection(7), new Section("333339"), "John Doe", LocalDateTime.now()));
 
         return modularSectionAssignments;
     }

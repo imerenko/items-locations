@@ -3,12 +3,14 @@ schema {
 }
 
 type Query {
-    modulars: [Modular]
+    #modulars: [Modular]
     modular(countryCode: String, storeNumber: Int, planId: Int): Modular
-    sections (gln: String): [Section]
-    sectionBySgln (sgln: String): Section
+#    sections (gln: String): [Section]
+#    sectionBySgln (sgln: String): Section
     section (coutryCode: String, storeNumber: Int, name: String): Section
     item (coutryCode: String, storeNumber: Int, gtin: String): Item
+    flexesByGtin (coutryCode: String, storeNumber: Int, gtin: String): [Flex]
+    flexesBySectionName (coutryCode: String, storeNumber: Int, sectionName: String): [Flex]
 }
 
 type Modular {
@@ -16,7 +18,23 @@ type Modular {
     planId: Long!,
     store: Store,
     modularName: String!
+    status: String!
+    ckbPlanId: Long
+    category: Category!
     modularSections: [ModularSection]
+}
+
+type Category {
+    #   id: ID!,
+    number: Int!,
+    name: String,
+    department: Department!
+}
+
+type Department {
+    #   id: ID!,
+    number: Int!,
+    name: String,
 }
 
 type ModularSection {
@@ -30,12 +48,17 @@ type ModularSectionItem {
     sequenceNumber: Int!
     gtin : String
     modularSection: ModularSection
+    capacityCnt: Int
+    horizFacingCnt: Int
+    vertFacingCnt: Int
+    merchandiseStyleCode: Int
 }
 
 type ModularSectionAssignment {
     modularSection: ModularSection
     section: Section
     assigner: String
+    assignedDateTime: LocalDateTime
 }
 
 type Flex {
@@ -47,15 +70,18 @@ type Flex {
 type Item {
     gtin: String!
     flexes: [Flex]
-    modularSectionAssignments: [ModularSectionAssignment]
-    modularSections : [ModularSection]
+  #  modularSectionAssignments: [ModularSectionAssignment]
+  #  modularSections : [ModularSection]
+    modularSectionItems: [ModularSectionItem]
     sections: [Section]
 }
 
 type Section {
     sgln : String!
+    sgln195: String
     name : String!
-    store: Store!
+    legacyId: String
+   # store: Store!
     modularSectionAssignments: [ModularSectionAssignment]
     flexes: [Flex]
     items: [Item]

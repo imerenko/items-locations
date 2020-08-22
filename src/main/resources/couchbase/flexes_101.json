@@ -1,0 +1,34 @@
+{
+  "flexes": [
+    {
+      "type": "flex",
+      "gtin": "19416425154",
+      "store": {
+        "gln": "0078742000787",
+        "countryCode": "US",
+        "storeNumber": 101
+      },
+      "section": {
+        "legacyId": "11112121",
+        "name": "B1-1",
+        "sgln": "0078742000787100001117632",
+        "sgln195": "0078742000787W.SF.B.1.1"
+      }
+    },
+    {
+      "type": "flex",
+      "gtin": "19416425155",
+      "store": {
+        "gln": "0078742000787",
+        "countryCode": "US",
+        "storeNumber": 101
+      },
+      "section": {
+        "legacyId": "11112121",
+        "name": "B1-1",
+        "sgln": "0078742000787100001117632",
+        "sgln195": "0078742000787W.SF.B.1.1"
+      }
+    }
+  ]
+}

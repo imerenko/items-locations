@@ -1,30 +1,30 @@
-package com.my.resolver;
+package com.my.resolver.inmemory;
 
-import com.coxautodev.graphql.tools.GraphQLResolver;
+import graphql.kickstart.tools.GraphQLResolver;
 import com.my.model.Modular;
 import com.my.model.ModularSection;
 import com.my.model.Store;
-import com.my.repository.ModularSectionRepository;
-import com.my.repository.StoreRepository;
+import com.my.repository.inmemory.ModularSectionInMemoryRepository;
+import com.my.repository.inmemory.StoreInMemoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-@Component
-public class ModularResolver implements GraphQLResolver<Modular> {
+//@Component
+public class ModularInMemoryResolver implements GraphQLResolver<Modular> {
 
     @Autowired
-    private StoreRepository storeRepository;
+    private StoreInMemoryRepository storeInMemoryRepository;
 
     @Autowired
-    private ModularSectionRepository modularSectionRepository;
+    private ModularSectionInMemoryRepository modularSectionInMemoryRepository;
 
     public Store getStore(Modular modular) {
-        return storeRepository.getStoreByGln(modular.getStore().getGln());
+        return storeInMemoryRepository.getStoreByGln(modular.getStore().getGln());
     }
 
     public List<ModularSection> getModularSections(Modular modular) {
-         return modularSectionRepository.getModularSections(modular.getId());
+         return modularSectionInMemoryRepository.getModularSections(modular.getId());
     }
 }

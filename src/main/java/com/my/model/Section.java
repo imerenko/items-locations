@@ -12,9 +12,11 @@ import java.util.List;
 public class Section {
 
     private String sgln;
+    private String sgln195;
     private String parentSgln;
     private String name;
     private Store store;
+    private String legacyId;
     private List<ModularSectionAssignment> modularSectionAssignments;
     private List<Flex> flexes;
     private List<Item> items;
