@@ -1,8 +1,0 @@
-scalar BigDecimal
-scalar BigInteger
-scalar Byte
-scalar Char
-scalar Short
-scalar Long
-scalar Date
-scalar LocalDate

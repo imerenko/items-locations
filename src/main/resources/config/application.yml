@@ -1,0 +1,7 @@
+couchbase:
+  host: localhost
+  user: imerenko
+  password: imerenko
+  bucket: rampart
+
+value1: 12345
